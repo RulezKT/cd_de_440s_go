@@ -14,7 +14,6 @@ import (
 
 	"github.com/RulezKT/cd_cheb_go"
 	"github.com/RulezKT/cd_consts_go"
-	"github.com/RulezKT/cd_date_go"
 	"github.com/RulezKT/cd_nodes_go"
 )
 
@@ -34,8 +33,6 @@ func Load440s() cd_consts_go.BspFile {
 	pathToFile := filepath.Join(dir, "files", fileName)
 	bsp.FilePtr = CheckAndOpen(pathToFile, expectedSha512, fileLength)
 	bsp.NodesCoords = cd_nodes_go.LoadNodesCoords()
-
-	bsp.DeltaTTable = cd_date_go.DeltaTPtr()
 
 	return bsp
 }

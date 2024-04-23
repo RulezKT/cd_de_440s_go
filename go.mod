@@ -3,8 +3,9 @@ module github.com/RulezKT/cd_de_440s_go
 go 1.22.2
 
 require (
-	github.com/RulezKT/cd_cheb_go v0.0.0-20240421182836-6bd0f63d84b6 // indirect
-	github.com/RulezKT/cd_consts_go v0.0.0-20240421182054-a2731c7a79ff // indirect
-	github.com/RulezKT/cd_date_go v0.0.0-20240421180733-e6530383123b // indirect
-	github.com/RulezKT/cd_nodes_go v0.0.0-20240421193639-361def1ecd0f // indirect
+	github.com/RulezKT/cd_cheb_go v0.0.0-20240421182836-6bd0f63d84b6
+	github.com/RulezKT/cd_consts_go v0.0.0-20240423175144-3d105b95de29
+	github.com/RulezKT/cd_nodes_go v0.0.0-20240421193639-361def1ecd0f
 )
+
+require github.com/RulezKT/cd_date_go v0.0.0-20240421180733-e6530383123b // indirect
